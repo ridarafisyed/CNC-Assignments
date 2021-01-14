@@ -1,0 +1,65 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Chapter 7 - Forms</title>
+	</head>
+	<body>
+		<h1>Chapter # 7 - Forms</h1>
+		<form action="#" method="post">
+			<fieldset>
+				<legend>Your Details</legend>
+				<p>
+					<label for="name">Name:<input type="text" name="name" /></label>
+				</p>
+
+				<p>
+					<label>Email:<input type="email" name="email" /></label>
+				</p>
+			</fieldset>
+			<fieldset>
+				<legend>Your Review:</legend>
+				<p>
+					<label for="source"
+						>How do you hear about us?
+						<select name="referrer" id="source">
+							<option value="google">Google</option>
+							<option value="friend">Friend</option>
+							<option value="advert">Advert</option>
+							<option value="other">Other</option>
+						</select>
+					</label>
+				</p>
+				<p>
+					<label for="visit">Would you visit again?</label><br />
+					<label>
+						<input type="radio" name="rating" value="yes" />
+						Yes
+					</label>
+					<label>
+						<input type="radio" name="rating" value="no" />
+						No
+					</label>
+					<label>
+						<input type="radio" name="rating" value="maybe" />
+						Maybe
+					</label>
+				</p>
+				<p>
+					<label for="comments"
+						>Comments: <br /><textarea rows="4" cols="40" id="comments">
+						</textarea>
+					</label>
+				</p>
+				<p>
+                    <lable for="sign-in">
+					<input type="checkbox" name="subsciption" value="subsciption" checked/> Sign me up for email update </label><br />
+                </p>
+                <input type="submit" name="submit-review" value="Submit Review" />
+			</fieldset>
+		</form>
+	</body>
+</html>
