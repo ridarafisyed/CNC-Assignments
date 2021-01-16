@@ -1,0 +1,40 @@
+/** @format */
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"); */
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	line-height: 1.5;
+	font-size: 16px;
+}
+img {
+	height: 200px;
+	width: 300px;
+	border-radius: 3px 3px 0 0;
+}
+.card {
+	display: inline-block;
+	border: 1px 1px gray;
+	box-shadow: 3px 3px 8px gray;
+	border-radius: 3px;
+	width: 300px;
+	height: auto;
+	margin: 20px;
+}
+.content {
+	padding: 10px 20px 30px 30px;
+}
+.card h2 {
+	color: #333;
+	font-weight: normal;
+}
+.card p {
+	color: gray;
+}
+button {
+	padding: 10px 20px;
+	border: none;
+	background-color: lightseagreen;
+	color: white;
+	text-transform: uppercase;
+	border-radius: 3px;
+	box-shadow: 1px 1px 5px gray;
+}

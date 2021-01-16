@@ -22,6 +22,13 @@ li a {
 	text-decoration: none;
 	color: black;
 }
+li a:link{
+	text-decoration: none;
+	color: blueviolet;
+}
+li a:visited {
+	color: blue;
+}
 
 h3::first-letter {
 	font-size: 150%;

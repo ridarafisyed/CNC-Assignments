@@ -1,0 +1,314 @@
+/** @format */
+/* top button color #9ACD32
+    other green color #9acd32 
+*/
+
+html,
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	line-height: 1.5;
+	font-size: 16px;
+}
+p {
+	margin-top: 0;
+	margin-bottom: 1rem;
+}
+.green {
+	color: #9acd32;
+}
+
+.container {
+	width: 95%;
+	display: block;
+	margin: auto;
+	/* border: 1px solid gray; */
+	box-shadow: 1px 1px 10px gray;
+}
+.topbar {
+	background-color: #112;
+	padding: 1px;
+	font-size: 0.7em;
+}
+.topbar ul li {
+	color: white;
+	display: inline;
+	list-style-type: none;
+	padding-left: 2px;
+}
+.topbar ul li a {
+	color: white;
+	text-decoration: none;
+}
+.left {
+	text-align: left;
+}
+.right {
+	float: right;
+	padding-right: 20px;
+	letter-spacing: 2px;
+}
+.button-topbar {
+	background-color: #9acd32;
+	border: none;
+	padding: 10px 10px;
+	border-radius: 5px;
+	text-align: center;
+	display: inline-block;
+	margin: 4px 2px;
+	cursor: pointer;
+	/* box-shadow: green; */
+}
+.fa-phone {
+	color: #9acd32;
+	padding-right: 2px;
+}
+.icon {
+	background-color: #555;
+	border: none;
+	font-size: smaller;
+	font-weight: bolder;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	color: lightgray;
+	cursor: pointer;
+}
+.icon:hover {
+	background-color: #9acd32;
+	color: white;
+}
+.tube {
+	padding: auto;
+	font-size: 0.6em;
+}
+.nav-bar ul li {
+	list-style-type: none;
+	display: inline-block;
+	padding-right: 20px;
+}
+.nav-bar .links {
+	float: right;
+	display: block;
+}
+.nav-bar ul li a {
+	display: block;
+	text-decoration: none;
+	text-transform: uppercase;
+
+	color: #333;
+}
+.nav-bar ul li a:hover {
+	text-decoration: none;
+	color: 9acd32;
+	font-weight: 600;
+	padding-bottom: 10px;
+	border-bottom: 8px solid #ffc400;
+}
+section {
+	display: block;
+	margin: auto;
+}
+.header {
+	background-color: #9acd32;
+	padding: 7% 25%;
+}
+.header h1 {
+	text-align: center;
+	color: white;
+	font-size: 3.5rem;
+}
+.main .header p {
+	text-align: center;
+	color: white;
+}
+.main .header button {
+	background-color: #ffc400;
+	border: none;
+	font-size: 1em;
+	padding: 12px 35px;
+	border-radius: 5px;
+	text-align: center;
+	display: block;
+	text-transform: uppercase;
+	border-bottom: 2px solid orangered;
+	margin: auto;
+	cursor: pointer;
+}
+.section {
+	text-align: center;
+	padding: 2%;
+	/* box-shadow: 0px 1px 8px gray; */
+}
+.section h2 {
+	font-size: 2.3em;
+	text-transform: uppercase;
+}
+.section h5 {
+	font-weight: 500;
+	text-transform: uppercase;
+}
+.section p {
+	font-size: 0.9em;
+	color: #aaa;
+}
+.card {
+	display: inline-block;
+	width: 15%;
+	margin: auto;
+	padding: 2%;
+}
+.one .card i {
+	color: #9acd32;
+	font-size: 5em;
+	text-shadow: 1px 1px 10px gray;
+}
+.button {
+	border: none;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+.section .two {
+	display: inline-block;
+	margin: auto;
+	background-color: #eee;
+}
+.section .two .card {
+	display: inline-block;
+	width: 45%;
+	margin: auto;
+}
+.two .card img {
+	width: 500px;
+	height: 400px;
+}
+.section .two .card p {
+	text-align: justify;
+	font-size: 0.9em;
+	color: black;
+}
+.button2 {
+	background-color: #ffc400;
+	border: none;
+	font-size: 1em;
+	padding: 12px 35px;
+	border-radius: 5px;
+	display: block;
+	text-transform: uppercase;
+	border-bottom: 2px solid orangered;
+	cursor: pointer;
+}
+.section .three .card {
+	width: 20%;
+	background-color: #eee;
+}
+.section .three .card i {
+	color: orangered;
+	font-size: 3.5em;
+	text-shadow: none;
+}
+.section .three .card a {
+	color: #9acd32;
+	text-shadow: none;
+}
+.button3 {
+	background-color: #ffc400;
+	border: none;
+	font-size: 0.5em;
+	padding: 20px 20px;
+	border-radius: 50%;
+	display: block;
+	margin: auto;
+	text-transform: uppercase;
+	box-shadow: none;
+	cursor: pointer;
+	z-index: 2;
+}
+.four {
+	background-color: #333;
+	color: white;
+	padding-bottom: 5%;
+}
+
+.four ul li {
+	list-style-type: none;
+	display: inline;
+	padding: 15px;
+}
+.four ul li a {
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.four ul li a:hover {
+	color: orange;
+}
+.four .card i {
+	font-size: 5em;
+}
+.a,
+.e,
+.h {
+	background-color: whitesmoke;
+	color: #333;
+}
+.b,
+.j {
+	background-color: #555;
+	color: whitesmoke;
+}
+.c,
+.g {
+	background-color: #ccc;
+	color: #333;
+}
+.d {
+	background-color: #777;
+	color: white;
+}
+.f {
+	background-color: #999;
+	color: white;
+}
+.i i {
+	color: #9acd32;
+}
+.i {
+	background-color: tomato;
+}
+.form {
+	display: inline;
+}
+.five {
+	background-color: #9acd32;
+	color: white;
+}
+.five h1 {
+	font-size: 4em;
+}
+.five p {
+	color: #eee;
+}
+.form input {
+	border: none;
+	padding: 11px 15px;
+	font-size: 1em;
+	margin-left: 1%;
+	border-radius: 5px;
+}
+.form input::placeholder {
+	color: #aaa;
+}
+.form button {
+	background-color: #ffc400;
+	border: none;
+	font-size: 1em;
+	padding: 12px 30px;
+	border-radius: 5px;
+	text-align: center;
+	text-transform: uppercase;
+	border-bottom: 2px solid orangered;
+	margin: 2%;
+	cursor: pointer;
+}
