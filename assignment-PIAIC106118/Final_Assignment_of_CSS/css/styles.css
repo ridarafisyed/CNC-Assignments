@@ -86,33 +86,46 @@ p {
 	padding: auto;
 	font-size: 0.6em;
 }
+.nav-bar .logo img {
+	width: 8em;
+	padding: 0;
+}
+.nav-bar ul {
+	display: flex;
+	margin-bottom: 0;
+}
 .nav-bar ul li {
 	list-style-type: none;
 	display: inline-block;
 	padding-right: 20px;
+	margin: auto;
 }
 .nav-bar .links {
 	float: right;
 	display: block;
+	margin-top: 2em;
+	margin-left: 14em;
 }
 .nav-bar ul li a {
 	display: block;
+	border-bottom: 8px solid white;
 	text-decoration: none;
+	padding-bottom: 2em;
+	margin-bottom: 0;
 	text-transform: uppercase;
-
 	color: #333;
 }
 .nav-bar ul li a:hover {
 	text-decoration: none;
 	color: 9acd32;
 	font-weight: 600;
-	padding-bottom: 10px;
 	border-bottom: 8px solid #ffc400;
 }
 section {
 	display: block;
 	margin: auto;
 }
+
 .header {
 	background-color: #9acd32;
 	padding: 7% 25%;
@@ -141,8 +154,6 @@ section {
 }
 .section {
 	text-align: center;
-	padding: 2%;
-	/* box-shadow: 0px 1px 8px gray; */
 }
 .section h2 {
 	font-size: 2.3em;
@@ -166,6 +177,9 @@ section {
 	color: #9acd32;
 	font-size: 5em;
 	text-shadow: 1px 1px 10px gray;
+}
+.one .card p {
+	text-align: center;
 }
 .button {
 	border: none;
@@ -543,6 +557,11 @@ section {
 .circle-wrapper {
 	display: block;
 }
+
+.review .card h5 {
+	text-align: left;
+}
+
 .six .contact-info p {
 	font-size: 1.5em;
 	color: #333;
@@ -553,4 +572,51 @@ section {
 }
 .six .contact-info i {
 	color: #9acd32;
+}
+.map img {
+	padding-top: 3em;
+	width: 80%;
+	clip: rect(0, 0, 100px, 0);
+}
+.footer {
+	display: flex;
+	width: 100%;
+	background-color: #668e19;
+	color: white;
+	padding: 3em;
+}
+.part1,
+.part2,
+.part3,
+.part4 {
+	display: block;
+	width: 25%;
+	text-align: left;
+}
+.part1 p {
+	color: white;
+	margin-top: 2em;
+}
+.footer .green {
+	color: black;
+}
+.footer ul li {
+	list-style-type: none;
+	line-height: 2.2em;
+	font-size: 0.8em;
+	text-transform: capitalize;
+}
+.footer h3 {
+	text-transform: uppercase;
+}
+.footer ul li a {
+	color: white;
+}
+.part4 .left li {
+	display: inline;
+}
+.part4 .left li button {
+	background-color: #333;
+	font-weight: bolder;
+	color: #668e19;
 }
