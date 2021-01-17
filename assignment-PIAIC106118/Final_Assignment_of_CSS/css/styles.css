@@ -217,6 +217,9 @@ section {
 	border-bottom: 2px solid orangered;
 	cursor: pointer;
 }
+.section .three .review-card-wrapper {
+	margin-top: 3em;
+}
 .section .three .card {
 	width: 20%;
 	background-color: #eee;
@@ -230,18 +233,27 @@ section {
 	color: #9acd32;
 	text-shadow: none;
 }
-.button3 {
+.section .three .card h5 {
+	/* top: -25px; */
+	padding-top: 0;
+	margin-top: 0;
+}
+.star {
 	background-color: #ffc400;
+	width: 7em;
+	height: 7em;
 	border: none;
-	font-size: 0.5em;
-	padding: 20px 20px;
+	font-size: 0.6em;
 	border-radius: 50%;
 	display: block;
 	margin: auto;
-	text-transform: uppercase;
-	box-shadow: none;
-	cursor: pointer;
+	position: relative;
+	top: -5.5em;
 	z-index: 2;
+}
+.star i {
+	text-align: center;
+	margin-top: 0.4em;
 }
 .four {
 	background-color: #333;
@@ -527,13 +539,13 @@ section {
 	border-radius: 50%;
 	margin: 0.1em;
 }
-.line-simple {
+.horizontal-line {
 	border: 2px solid #ccc;
 	position: relative;
 	top: 0.6em;
 	display: block;
 	margin: auto;
-	width: 80%;
+	width: 75%;
 	height: 2px;
 	z-index: -5;
 }
@@ -592,7 +604,14 @@ section {
 	display: block;
 	width: 25%;
 	text-align: left;
+	/* padding-left: 2em; */
 }
+.part2,
+.part3,
+.part4 {
+	padding-left: 6em;
+}
+
 .part1 p {
 	color: white;
 	margin-top: 2em;
@@ -600,16 +619,22 @@ section {
 .footer .green {
 	color: black;
 }
-.footer ul li {
+.footer li {
 	list-style-type: none;
 	line-height: 2.2em;
 	font-size: 0.8em;
 	text-transform: capitalize;
 }
+.footer .part1 h3 {
+	text-transform: capitalize;
+}
 .footer h3 {
 	text-transform: uppercase;
 }
-.footer ul li a {
+.footer li a {
+	color: white;
+}
+.footer i {
 	color: white;
 }
 .part4 .left li {
@@ -619,4 +644,10 @@ section {
 	background-color: #333;
 	font-weight: bolder;
 	color: #668e19;
+}
+.vertical-line {
+	border: 1px solid #9acd32;
+	/* height: 80%; */
+	margin: auto;
+	height: 240px;
 }
